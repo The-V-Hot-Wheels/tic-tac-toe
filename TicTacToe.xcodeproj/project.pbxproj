@@ -23,6 +23,7 @@
 		6184A5AE2BD2FA90009BC0AD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184A5AD2BD2FA90009BC0AD /* Player.swift */; };
 		6184A5B02BD2FB2B009BC0AD /* BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184A5AF2BD2FB2B009BC0AD /* BoardTests.swift */; };
 		6184A5B22BD2FB42009BC0AD /* PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184A5B12BD2FB42009BC0AD /* PlayerTests.swift */; };
+		61D1E17C2BF7F90800E1EEFA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184A5AD2BD2FA90009BC0AD /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -298,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D1E17C2BF7F90800E1EEFA /* Player.swift in Sources */,
 				6184A5B02BD2FB2B009BC0AD /* BoardTests.swift in Sources */,
 				6184A5B22BD2FB42009BC0AD /* PlayerTests.swift in Sources */,
 				6115710B2BCDA69400BAFEDF /* TicTacToeTests.swift in Sources */,
