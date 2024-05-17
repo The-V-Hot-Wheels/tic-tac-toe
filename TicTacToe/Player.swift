@@ -13,10 +13,9 @@ struct Player {
     
     let playerToken: Character
     
-    // TODO: Write tests for this
     init(name: String, token: Character) {
         self.playerID = name
-        self.playerToken = "?"// token
+        self.playerToken = token
     }
     
 }
