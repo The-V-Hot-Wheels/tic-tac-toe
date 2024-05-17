@@ -15,7 +15,7 @@ struct Player {
     
     // TODO: Write tests for this
     init(name: String, token: Character) {
-        self.playerID = "NOT IMPLEMENTED YET"// name
+        self.playerID = name
         self.playerToken = "?"// token
     }
     
