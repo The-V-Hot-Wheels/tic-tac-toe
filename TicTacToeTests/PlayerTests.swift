@@ -15,5 +15,12 @@ final class PlayerTests: XCTestCase {
         let actual = player.playerID
         XCTAssertEqual(expected, actual)
     }
+    
+    func testPlayerToken() {
+        let expected = "QWERTYUIOPASDFGHJKLZXCVBNM".randomElement()!
+        let player = Player(name: "Player", token: expected)
+        let actual = player.playerToken
+        XCTAssertEqual(expected, actual)
+    }
 
 }
